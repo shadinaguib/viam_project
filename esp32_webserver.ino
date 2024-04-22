@@ -3,7 +3,7 @@
 #include <WebServer.h>
 
 const char* ssid = "Shadi_WIFI";         // Replace with your Wi-Fi SSID
-const char* password = "shadi1naguib2";  // Replace with your Wi-Fi password
+const char* password = "your_password";  // Replace with your Wi-Fi password
 
 #define LED_PIN 13    // GPIO pin connected to the LEDs.
 #define NUM_LEDS 150  // Number of LEDs in the strip

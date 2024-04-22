@@ -21,7 +21,7 @@ To test your camera, go to the CONTROL tab and click to expand your camera’s p
 Toggle View my_webcam to the “on” position. The video feed should display. If it doesn’t, double-check that your config is saved correctly, and check the LOGS tab for errors.
 
 ### Configure the vision service
-Now that you know the camera is properly connected to your machine, it is time to add computer vision by configuring the vision service on your machine. Viam’s built-in mlmodel vision service works with Tensor Flow Lite models, but since this tutorial uses a YOLOv8 model, we will use a module from the modular resource registry that augments Viam with YOLOv8 integration. The YOLOv5 module enables you to use any YOLOv5 model with your Viam machines.
+Now that you know the camera is properly connected to your machine, it is time to add computer vision by configuring the vision service on your machine. Viam’s built-in mlmodel vision service works with Tensor Flow Lite models, but since this tutorial uses a YOLOv5 model, we will use a module from the modular resource registry that augments Viam with YOLOv5 integration. The YOLOv5 module enables you to use any YOLOv5 model with your Viam machines.
 
 1. Navigate to your machine’s CONFIGURE tab.
 2. Click the + (Create) button next to your main part in the left-hand menu and select Service. Start typing yolo and select vision / yolov8 from the registry options. Click Add module.

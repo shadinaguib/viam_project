@@ -10,8 +10,8 @@ WEBSERVER_IP = "192.168.1.159"
 
 async def connect():
     opts = RobotClient.Options.with_api_key( 
-        api_key='gqz7oon31983ivomkt0jlzprmjxgo18j',
-        api_key_id='5f256abb-b7c1-4c02-8dea-dd4564d5332b'
+        api_key='your_api_key',
+        api_key_id='your_api_key_id'
     )
     return await RobotClient.at_address('smart-trash-main.0f960q0n3l.viam.cloud', opts)
 
